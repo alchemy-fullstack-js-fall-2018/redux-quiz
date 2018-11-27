@@ -1,7 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Display() {
+const Display = ({ name, greeting }) => {
   return (
-    <h1>Display</h1>
+    <div>
+      <p>{name}</p>
+      <p>{greeting}</p>
+    </div>
   );
-}
+};
+
+Display.propTypes = {
+  name: PropTypes.string.isRequired,
+  greeting: PropTypes.string.isRequired
+};
+
+export default Display;
