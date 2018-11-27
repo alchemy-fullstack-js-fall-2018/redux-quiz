@@ -4,11 +4,10 @@ import { getName } from '../selectors/name';
 import Display from '../components/display/Display';
 
 const mapStateToProps = state => ({
-  text: getSearchTerm(state),
-  color: getSearchColor(state),
-  backgroundColor: getBackgroundColor(state)
+  greeting: getGreeting(state),
+  name: getName(state)
 });
 
 export default connect(
   mapStateToProps
-)(Display)
+)(Display);

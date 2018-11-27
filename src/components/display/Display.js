@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 
 const Display = ({ greeting, name }) => {
   return (
-    <h1>{greeting}</h1>
-    <h1>{name}</h1>
+    <div>
+      <h1>{greeting}</h1>
+      <h1>{name}</h1>
+    </div>
   );
 };
 
