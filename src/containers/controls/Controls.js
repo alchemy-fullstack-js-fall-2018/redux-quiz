@@ -1,14 +1,18 @@
 import { connect } from 'react-redux';
 import Controls from '../../components/controls/Controls';
 import { getGreeting } from '../../selectors/greeting';
+import { getName } from '../../selectors/name';
 import { greetingChange } from '../../actions/greeting';
+import { nameChange } from '../../actions/name';
 
 const mapStateToProps = state => ({
-  text: getGreeting(state)
+  greeting: getGreeting(state),
+  name: getName(state)
 });
 
 const mapDispatchToProps = dispatch => ({
-  onTextChange: ({ target }) => dispatch(greetingChange(target.value))
+  onGreetingChange: ({ target }) => dispatch(greetingChange(target.value)),
+  onNameChange: ({ target }) => dispatch(nameChange(target.value))
 });
 
 export default connect(
