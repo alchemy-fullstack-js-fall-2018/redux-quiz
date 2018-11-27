@@ -13,7 +13,7 @@ describe('greeting change reducer', () => {
   });
 
   it('returns default if it doesnt recognize action', () => {
-    const newState = reducer(initialState, { type: 'NAME_CHANGE', payload: 'Yo!' });
+    const newState = reducer(initialState, { type: 'NAME_CHANGER', payload: 'Yo!' });
     expect(newState.greeting).toEqual('Hello');
   });
 
