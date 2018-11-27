@@ -4,7 +4,8 @@ import { GREETING_CHANGE } from '../../actions/greeting';
 describe('reducer', () => {
 
   const state = {
-    greeting: 'qwerty'
+    name: '',
+    greeting: 'Hello'
   };
 
   test('returns an initialState, defaulting to Hello', () => {
