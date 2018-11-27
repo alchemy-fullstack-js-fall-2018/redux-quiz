@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Controls from '../controls/Controls';
+import Display from '../display/Display';
 
 export default function App() {
   return (
-    <h1>App</h1>
+    <Fragment>
+      <h1>App</h1>
+      <Controls />
+      <Display />
+    </Fragment>
   );
 }
