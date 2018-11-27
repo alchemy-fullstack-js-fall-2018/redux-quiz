@@ -7,7 +7,7 @@ state managment. You **must** use redux and **not** React's built in `state` and
 
 1. Use standard lab process: fork this repo and clone locally.
 1. **Make an initial commit when you start your work**
-1. You have **55 minutes** to complete what you can.
+1. You have **60 minutes** to complete what you can.
 1. You must complete this work on your own within the allotted time
     * You **need to manage your time** to have PR and last commit before deadline (remember, you can
     open PR and push your commits frequently).
