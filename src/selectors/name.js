@@ -1,3 +1,3 @@
 export const getName = state => {
-  return state.name; //???
+  return state.name.name; //???
 };

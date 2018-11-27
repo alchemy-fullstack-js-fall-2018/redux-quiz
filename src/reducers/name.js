@@ -1,7 +1,7 @@
 import { UPDATE_NAME } from '../actions/text';
 
 const initialState = {
-  name: 'hello'
+  name: 'stranger'
 };
 
 export default function reducer(state = initialState, action) {

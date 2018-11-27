@@ -1,3 +1,3 @@
 export const getGreeting = state => {
-  return state.greeting; //???
+  return state.greeting.greeting; //???
 };
