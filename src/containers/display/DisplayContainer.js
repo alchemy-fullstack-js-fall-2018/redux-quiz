@@ -1,9 +1,11 @@
 import { connect } from 'react-redux';
-import { getText } from '../../selectors/text';
+import { getName } from '../../selectors/name';
+import { getGreeting } from '../../selectors/greeting';
 import Display from '../../components/display/Display';
 
 const mapStateToProps = state => ({
-  text: getText(state)
+  name: getName(state),
+  greeting: getGreeting(state)
 });
 
 export default connect(mapStateToProps)(Display);

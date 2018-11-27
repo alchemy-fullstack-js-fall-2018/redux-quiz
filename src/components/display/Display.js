@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const Display = ({ text }) => {
+const Display = ({ greeting, name }) => {
   return (
-    <h1>{text}</h1>
+    <Fragment>
+      <h1>Greeting</h1>
+      <h2>{greeting}</h2>
+      <h2>{name}</h2>
+    </Fragment>
+
   );
 };
 
