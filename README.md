@@ -1,4 +1,4 @@
-# React Quiz
+# Redux Quiz
 
 This quiz is designed to test your familiarity with basic Redux
 state managment. You **must** use redux and **not** React's built in `state` and `setState`.
@@ -53,7 +53,7 @@ like a name tag:
 
 ### Testing
 
-Unit test reducers, actions and selectors. Snapshot test components.
+Unit test reducers, actions and selectors.
 
 ### Reducers
 
