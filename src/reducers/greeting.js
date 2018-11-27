@@ -1,7 +1,7 @@
 import { GREETING_CHANGE } from '../actions/text';
 
 const initialState = {
-  greeting: 'My name is...'
+  greeting: 'Hello'
 };
 
 export default function reducer(state = initialState, { type, payload }) {
