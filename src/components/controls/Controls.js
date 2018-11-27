@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Controls = ({ nameValue, greetingValue, onNameChange, onGreetingChange }) => {
   return (
     <Fragment>
-      <input value={nameValue}  onChange={onNameChange} />
       <input value={greetingValue} onChange={onGreetingChange} />
+      <input value={nameValue}  onChange={onNameChange} />
     </Fragment>
   );
 };
