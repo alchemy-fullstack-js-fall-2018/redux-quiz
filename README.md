@@ -61,7 +61,7 @@ Use two reducers and combine them. Reducer state can be a primitive (i.e. a stri
 
 * `greeting` - the greeting, defaults to "Hello"
 * `name` - the name, defaults to ""
-
+ 
 ### Actions
 
 * `GREETING_CHANGE` update greeting to `payload`
