@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import GreetingContainer from '../../containers/controls/GreetingContainer';
+import NameContainer from '../../containers/display/NameContainer';
 
 export default function App() {
   return (
-    <h1>App</h1>
+    <Fragment>
+      <GreetingContainer />
+      <NameContainer />
+    </Fragment>
   );
 }

@@ -61,5 +61,13 @@
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiegraham/redux-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sophiegraham/redux-quiz/issues"
+  },
+  "homepage": "https://github.com/sophiegraham/redux-quiz#readme"
 }
