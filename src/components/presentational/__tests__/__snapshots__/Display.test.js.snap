@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Display /> renders 1`] = `
+<section>
+  <p>
+    the dude
+  </p>
+  <p>
+    abide, sir
+  </p>
+</section>
+`;
