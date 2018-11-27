@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
-import Greeting from '../../containers/greeting/Greeting';
+import Controls from '../../containers/controls/Controls';
 
 export default function App() {
   return (
     <Fragment>
       <h1>Name Tag App</h1>
-      <Greeting />
+      <Controls />
     </Fragment>
   );
 }

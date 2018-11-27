@@ -1,4 +1,4 @@
-import { GREETING_CHANGE } from '../actions/text';
+import { GREETING_CHANGE } from '../actions/greeting';
 
 const initialState = {
   greeting: 'Hello'
