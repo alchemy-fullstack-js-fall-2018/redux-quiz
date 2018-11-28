@@ -8,11 +8,11 @@ describe('selectors', () => {
 
   it('returns a name', () => {
     const testName = getName(state);
-    expect(testName).toEqual(state.name);
+    expect(testName).toEqual(state.name.name);
   });
 
   it('returns a greeting', () => {
     const testGreeting = getGreeting(state);
-    expect(testGreeting).toEqual(state.greeting);
+    expect(testGreeting).toEqual(state.greeting.greeting);
   });
 });
