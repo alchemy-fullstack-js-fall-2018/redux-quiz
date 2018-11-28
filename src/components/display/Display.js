@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react';
 
 export default function Display({ name, greeting }) {
   return (
-    <div>
+    <Fragment>
       <h1>{name}</h1>
       <h1>{greeting}</h1>
-    </div>
+    </Fragment>
   );
 }

@@ -5,8 +5,8 @@ import { Provider } from 'react-redux';
 import App from './components/app/App';
 
 render(
-  <Provider>
-    <App store={store} />
+  <Provider store={store}>
+    <App />
   </Provider>,
   document.getElementById('root')
 );
