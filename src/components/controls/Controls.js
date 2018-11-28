@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 const Controls = ({ name, greeting, onChangeNameInput, onChangeGreetingInput }) => {
   return (
-    <Fragment>
+    <div>
       <label>Greeting</label>
       <input value={greeting} onChange={onChangeGreetingInput} />
       <label>Name</label>
       <input value={name} onChange={onChangeNameInput} />
-    </Fragment>
+    </div>
   );
 };
 
