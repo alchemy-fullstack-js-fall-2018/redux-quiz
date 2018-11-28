@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Controls /> renders 1`] = `
+<section>
+  <label
+    htmlFor="name"
+  >
+    Name
+  </label>
+  <input
+    name="name"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    htmlFor="greeting"
+  >
+    Greeting
+  </label>
+  <input
+    name="greeting"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</section>
+`;
