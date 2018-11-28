@@ -3,10 +3,14 @@
 exports[`<Display /> renders 1`] = `
 <section>
   <p>
-    the dude
+    |
+    abide, sir
+    |
   </p>
   <p>
-    abide, sir
+    |
+    the dude
+    |
   </p>
 </section>
 `;

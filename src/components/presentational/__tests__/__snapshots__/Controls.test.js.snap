@@ -9,9 +9,9 @@ exports[`<Controls /> renders 1`] = `
   </label>
   <input
     name="name"
-    onChange={[MockFunction]}
+    onChange={[Function]}
     type="text"
-    value="the dude"
+    value=""
   />
   <label
     htmlFor="greeting"
@@ -20,9 +20,9 @@ exports[`<Controls /> renders 1`] = `
   </label>
   <input
     name="greeting"
-    onChange={[MockFunction]}
+    onChange={[Function]}
     type="text"
-    value="abide, sir"
+    value=""
   />
 </section>
 `;
