@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-export default function Controls() {
+const Controls = ({ greeting, name, updateGreeting, updateName }) => {
   return (
-    <h1>Controls</h1>
+    <Fragment>
+      Name: <input value={name} onChange={updateName} />
+      Greeting: <input value={greeting} onChange={updateGreeting} />
+    </Fragment>
   );
 };
+
+export default Controls;
