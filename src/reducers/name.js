@@ -1,7 +1,7 @@
 import { NAME_CHANGE } from '../actions/name';
 
 const initialState = {
-  name: 'david'
+  name: ''
 };
 
 export default function reducer(state = initialState, action) {
