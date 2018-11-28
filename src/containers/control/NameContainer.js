@@ -1,7 +1,6 @@
 import { connect } from 'react-redux';
-import Input from '../../components/input/Input';
-import { getName } from '../../selectors/name';
-import { updateName } from '../../actions/name';
+import { getName } from '../../selectors/getName';
+import { updateName } from '../../actions/NAME_CHANGE';
 
 const mapStateToProps = state => ({
   inputValue: getName(state)
@@ -14,4 +13,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Input);
+);

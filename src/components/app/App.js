@@ -5,8 +5,8 @@ import NameContainer from '../../containers/display/NameContainer';
 export default function App() {
   return (
     <Fragment>
-      <GreetingContainer />
-      <NameContainer />
+      <GreetingContainer/>
+      <NameContainer/>
     </Fragment>
   );
 }
