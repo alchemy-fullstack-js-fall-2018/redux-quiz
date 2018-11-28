@@ -12,19 +12,14 @@ export default class Controls extends PureComponent {
     greeting: ''
   };
 
-  onChange = event => {
-    const { target } = event;
-    this.setState({ [target.name]: target.value });
-    this.changeName();
-    this.changeGreeting();
-  };
-
-  changeName = () => {
+  changeName = ({ target }) => {
+    this.setState({ name: target.value });
     const { name } = this.state;
     this.props.changeName(name);
   };
 
-  changeGreeting = () => {
+  changeGreeting = ({ target }) => {
+    this.setState({ greeting: target.value });
     const { greeting } = this.state;
     this.props.changeGreeting(greeting);
   };
@@ -38,12 +33,12 @@ export default class Controls extends PureComponent {
         <label htmlFor="name">Name</label>
         <input
           name="name" type="text"
-          value={name} onChange={this.onChange}
+          value={name} onChange={this.changeName}
         ></input>
         <label htmlFor="greeting">Greeting</label>
         <input
           name="greeting" type="text"
-          value={greeting} onChange={this.onChange}
+          value={greeting} onChange={this.changeGreeting}
         ></input>
       </section>
     );

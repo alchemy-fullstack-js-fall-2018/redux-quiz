@@ -5,8 +5,8 @@ const Display = ({ name, greeting }) => {
 
   return (
     <section>
-      <p>{name}</p>
-      <p>{greeting}</p>
+      <p>|{greeting}|</p>
+      <p>|{name}|</p>
     </section>
   );
 };
