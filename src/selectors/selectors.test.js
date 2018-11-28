@@ -17,5 +17,4 @@ describe('Controls Selector', () => {
   it('gets the greeting from state', () => {
     expect(getName(state)).toEqual('Mr. Bubbles');
   });
-
 });

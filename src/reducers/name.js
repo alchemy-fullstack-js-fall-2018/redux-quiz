@@ -1,6 +1,4 @@
-import {
-  UPDATE_NAME_CHANGE
-} from '../actions/controls';
+import { UPDATE_NAME_CHANGE } from '../actions/controls';
 
 const initialState = {
   name: 'Please Enter a Name'

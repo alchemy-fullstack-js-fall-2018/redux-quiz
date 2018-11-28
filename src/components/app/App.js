@@ -6,8 +6,8 @@ export default function App() {
   return (
     <Fragment>
       <h1>Redux Quiz NameTag Generator</h1>
-      <ControlsContainer/>
-      <DisplayContainer/>
+      <ControlsContainer />
+      <DisplayContainer />
     </Fragment>
   );
 }

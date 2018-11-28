@@ -1,7 +1,14 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const Controls = ({ nameValue, onNameInput, onGreetingInput, greetingValue, nameLabel, greetingLabel }) => {
+const Controls = ({
+  nameValue,
+  onNameInput,
+  onGreetingInput,
+  greetingValue,
+  nameLabel,
+  greetingLabel
+}) => {
   return (
     <Fragment>
       <label>&nbsp;{greetingLabel}&nbsp;</label>
@@ -18,7 +25,7 @@ Controls.propTypes = {
   nameLabel: PropTypes.string.isRequired,
   greetingLabel: PropTypes.string.isRequired,
   greetingValue: PropTypes.string.isRequired,
-  onGreetingInput: PropTypes.func.isRequired,
+  onGreetingInput: PropTypes.func.isRequired
 };
 
 export default Controls;

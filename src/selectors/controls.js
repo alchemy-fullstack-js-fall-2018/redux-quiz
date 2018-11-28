@@ -5,4 +5,3 @@ export const getName = state => {
 export const getGreeting = state => {
   return state.greeting.greeting;
 };
-

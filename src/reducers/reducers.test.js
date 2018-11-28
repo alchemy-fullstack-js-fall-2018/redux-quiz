@@ -28,6 +28,4 @@ describe('Reducers', () => {
 
     expect(newState.name).toEqual('Joe');
   });
-
-
 });

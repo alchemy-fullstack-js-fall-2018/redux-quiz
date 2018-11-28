@@ -1,6 +1,4 @@
-import {
-  UPDATE_GREETING_CHANGE
-} from '../actions/controls';
+import { UPDATE_GREETING_CHANGE } from '../actions/controls';
 
 const initialState = {
   greeting: 'Hello'
