@@ -11,8 +11,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  onChangeInput: ({ target }) => dispatch(greetingChange(target.value));
-  onChangeInput: ({ target }) => dispatch(nameChange(target.value))
+  onChangeInputGreeting: ({ target }) => dispatch(greetingChange(target.value)),
+  onChangeInputName: ({ target }) => dispatch(nameChange(target.value))
 });
 
 export default connect(
