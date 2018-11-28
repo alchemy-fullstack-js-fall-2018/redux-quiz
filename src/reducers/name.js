@@ -1,7 +1,6 @@
 import { NAME_CHANGE } from '../actions/name';
 
 const initialState = {
-  greeting: 'hello',
   name: 'stranger'
 };
 

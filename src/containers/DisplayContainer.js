@@ -8,4 +8,4 @@ const mapStateToProps = (state) => ({
   name: getName(state)
 });
 
-export default connect(mapStateToProps)(Display);
+export default connect(mapStateToProps, () => {})(Display);
